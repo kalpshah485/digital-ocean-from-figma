@@ -1,0 +1,16 @@
+@import "../../styles/variable";
+
+.listing {
+  text-align: left;
+  &_header {
+    padding: 28px 0 16px;
+    border-bottom: 2px solid $border-color;
+    h5 {
+      margin: 0;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 700;
+      color: $text-secondary;
+    }
+  }
+}

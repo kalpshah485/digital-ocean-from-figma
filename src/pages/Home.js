@@ -3,7 +3,8 @@ import LeftSidebar from '../components/LeftSidebar/LeftSidebar'
 import Banner from '../components/Banner/Banner'
 import { Col, Row, Space } from 'antd'
 import Tags from '../components/Tags/Tags'
-import Card from '../components/Card/Card'
+import ListView from '../components/ListView/ListView'
+import CardView from '../components/CardView/CardView'
 
 const Home = () => {
   return (
@@ -20,19 +21,8 @@ const Home = () => {
               <Tags value="Cloud Aggregator" closable={true} className="tag-grey" />
               <Tags value="Cloud Management" closable={true} className="tag-grey" />
             </Space>
-            <div className=''>
-              <Row gutter={16}>
-                <Col span={8}>
-                  <Card />
-                </Col>
-                <Col span={8}>
-                  <Card />
-                </Col>
-                <Col span={8}>
-                  <Card />
-                </Col>
-              </Row>
-            </div>
+            <CardView />
+            <ListView />
           </Col>
         </Row>
       </div>
