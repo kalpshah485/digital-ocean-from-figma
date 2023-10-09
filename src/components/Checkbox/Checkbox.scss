@@ -1,0 +1,15 @@
+.ant-checkbox-wrapper {
+  align-items: center;
+}
+
+.ant-checkbox {
+  .ant-checkbox-inner {
+    width: 24px;
+    height: 24px;
+    &::after {
+      top: 42%;
+      height: 14px;
+      width: 7px;
+    }
+  }
+}
